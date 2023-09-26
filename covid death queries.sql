@@ -8,6 +8,7 @@ select *
 from CovidDeaths$
 order by 3,4
 
+--1.
 select 
 	Location, 
 	date, 
@@ -22,6 +23,7 @@ order by 1,2
 --shows liklihood of dying from COVID in your country dependent on the date
 -----when getting error for data type change to float for division
 
+--2.	
 select 
 	Location, 
 	date, 
@@ -35,6 +37,7 @@ order by 1,2
 --Looking at total cases vs population
 --shows what % of population has contracted covid in your country or all countries omitting 'where'
 
+--3.
 select 
 	Location, 
 	date, 
@@ -47,6 +50,7 @@ order by 1,2
 
 --countries with highest infection rate
 
+--4.
 select 
 	Location, 
 	population, 
@@ -58,6 +62,7 @@ order by Infection_Rate desc
 
 --showing countries with highest death counts
 
+--5.
 select 
 	Location, 
 	MAX(total_deaths) AS MaxDeathCount
@@ -69,6 +74,7 @@ order by MaxDeathCount desc
 
 -- showing the continents with the highest death counts
 
+--6.
 select 
 	continent, 
 	MAX(total_deaths) AS MaxDeathCount
@@ -79,6 +85,7 @@ order by MaxDeathCount desc
 
 --Global Numbers by date
 
+--7.
 select 
 	date, 
 	SUM(new_cases) AS all_new_cases, 
@@ -92,6 +99,7 @@ order by 1
 
 --World mortality overall
 
+--8.
 select 
 	SUM(new_cases) AS all_new_cases, 
 	SUM(new_deaths) AS all_new_deaths, 
@@ -104,6 +112,7 @@ having SUM(new_cases) > 0
 --looking at total population vs vaccination per country over time
 --cte for alias of cumulative_vax
 
+--9.
 with popvsvax as 
 (Select 
 	dea.continent, 
@@ -125,6 +134,7 @@ where new_vaccinations is not null --added to avoid null values in vaccinations 
 
 --Using count to find how often each location reported COVID numbers
 
+--10.
 with popvsvax as 
 (Select 
 	dea.continent, 
@@ -149,6 +159,7 @@ Order by 2 desc
 
 --this adjusts to show only the most recent cumulative vax #'s and vaccination rate per location
 
+--11.
 WITH Popvsvax AS
 (SELECT 
 	dea.location, 
