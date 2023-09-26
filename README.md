@@ -1,5 +1,7 @@
 The SQL queries found in 'covid death queries.sql' were run on two tables created from data surrounding the COVID-19 pandemic highlighting world numbers of infection and death, as well as, vaccination rates. This data was sourced from [OurWorldData](https://ourworldindata.org/covid-deaths) on 9/11/23.
 
+[Follow this link](https://public.tableau.com/app/profile/levi.souder/viz/COVID-Data-Dashboard/Dashboard1?publish=yes) to view and interact with my custom Tableau Public dashboard containing graphs and visualizations of the data queried in this project.
+
 Query Results:
 
 1. [Query 1](https://github.com/levijsouder/SQL_COVID_Queries/blob/0cce256e2bed420fcb36ecc4b387b2a661ffe48c/covid%20death%20queries.sql#L12C1-L20C13) returns the following: ![COVID Death Data](https://github.com/levijsouder/SQL_COVID_Queries/blob/main/Query%20for%20COVID%20Death%20Data.png)
@@ -13,5 +15,3 @@ Query Results:
 9. [Query 9](https://github.com/levijsouder/SQL_COVID_Queries/blob/0cce256e2bed420fcb36ecc4b387b2a661ffe48c/covid%20death%20queries.sql#L116C1-L133C35) returns the following: ![Vaccination Rates over Time per Country](https://github.com/levijsouder/SQL_COVID_Queries/blob/main/Vaccine%20Rates%20over%20time.png)
 10. [Query 10](https://github.com/levijsouder/SQL_COVID_Queries/blob/0cce256e2bed420fcb36ecc4b387b2a661ffe48c/covid%20death%20queries.sql#L138C1-L157C16) returns the following: ![Number of Vaccination Reports Conducted by Each Country](https://github.com/levijsouder/SQL_COVID_Queries/blob/main/Days%20Reported%20Count%20per%20country.png)
 11. [Query 11](https://github.com/levijsouder/SQL_COVID_Queries/blob/0cce256e2bed420fcb36ecc4b387b2a661ffe48c/covid%20death%20queries.sql#L163C1-L183C17) returns the following: ![Final Vaccination Count/Rate per Country](https://github.com/levijsouder/SQL_COVID_Queries/blob/main/Final%20Vax%20count-rate%20per%20country.png)
-
-[Follow this link](https://public.tableau.com/app/profile/levi.souder/viz/COVID-Data-Dashboard/Dashboard1?publish=yes) to view and interact with my custom Tableau Public dashboard containing graphs and visuals for the data queried in this project.
