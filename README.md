@@ -4,7 +4,7 @@ The SQL queries found in 'covid death queries.sql' were run on two tables create
 
 Query Results:
 
-1. [Query 1](https://github.com/levijsouder/SQL_COVID_Queries/blob/0cce256e2bed420fcb36ecc4b387b2a661ffe48c/covid%20death%20queries.sql#L12C1-L20C13) returns the following: ![COVID Death Data](https://github.com/levijsouder/SQL_COVID_Queries/blob/main/Query%20for%20COVID%20Death%20Data.png)
+1. [Query 1](https://github.com/levijsouder/SQL_COVID_Queries/blob/0cce256e2bed420fcb36ecc4b387b2a661ffe48c/covid%20death%20queries.sql#L12C1-L20C13) returns the following: ![COVID Death Data](image/Query for COVID Death Data.png)
 2. [Query 2](https://github.com/levijsouder/SQL_COVID_Queries/blob/0cce256e2bed420fcb36ecc4b387b2a661ffe48c/covid%20death%20queries.sql#L27C1-L35C13) returns the following: ![Mortality in the US](https://github.com/levijsouder/SQL_COVID_Queries/blob/main/Mortality-US.png)
 3. [Query 3](https://github.com/levijsouder/SQL_COVID_Queries/blob/0cce256e2bed420fcb36ecc4b387b2a661ffe48c/covid%20death%20queries.sql#L41C1-L49C13) returns the following: ![Infection Rates over Time per Country](https://github.com/levijsouder/SQL_COVID_Queries/blob/main/Daily%20Infection%20Rate%20-%20Country.png)
 4. [Query 4](https://github.com/levijsouder/SQL_COVID_Queries/blob/0cce256e2bed420fcb36ecc4b387b2a661ffe48c/covid%20death%20queries.sql#L54C1-L61C29) returns the following: ![Overall Infection Rates per Country](https://github.com/levijsouder/SQL_COVID_Queries/blob/main/MaxInfection%20Rate%20per%20Country.png)
